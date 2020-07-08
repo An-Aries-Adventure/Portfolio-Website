@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul {
+              list-style-type: none;
+              margin: 0px;
+              padding: 15px;
+              float: right;
+              font-size: x-large;
+            
+            }
+            li {
+              display: inline;
+            }
+        </style> 
+        <title>My Projects</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="custom_style_sheet.css">
+    </head>
+    <body class ="projectbackground">
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <img class = "logo" src="Photos/Aries.png" alt = "Aries Symbol">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class = "container">
+            <div class = row>
+                <div class = "col-md-4">
+                    <h5 style="color:green">Adventure Unlocked</h5>
+                        <div data-toggle="tooltip" title="Play against another player or computer in this game of odds. First player to win three rounds wins the game!">
+                            <h5>Rock-Paper-Scissors-Lizard-Spock</h5>
+                        </div>
+                    <a href ="https://github.com/An-Aries-Adventure/Rock_Paper_Scissors_Lizard_Spock"><img class = "project_image" src="Photos/rpsls.png" alt = "Rock Paper Scissors Lizard Spock"></a>
+                </div>
+                <div class = "col-md-4">
+                    <h5 style="color:green">Adventure Unlocked</h5>
+                    <div data-toggle="tooltip" title="Perform a search of the law's most wanted persons. Search by name or attribute(s).">
+                        <h5>Most Wanted Search</h5>
+                    </div>
+                    <a href ="https://github.com/An-Aries-Adventure/Most_Wanted_Project"><img class = "project_image" src="Photos/wanted.jpg" alt = "Wanted"></a>
+                </div>
+                <div class = "col-md-4">
+                    <h5 style="color:green">Adventure Unlocked</h5>
+                    <div data-toggle="tooltip" title="Create fun memories and wacky adventures with this random adventure generator. Program will generate random activites in random cities.">
+                        <h5>Day Trip - Adventure Generator</h5>
+                    </div>
+                    <a href ="https://github.com/An-Aries-Adventure/Day_Trip_Generator"><img class = "project_image" src="Photos/daytrip.jpg" alt = "Day Trip"></a>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <div class = row>
+                <div class = "col-md-4">
+                    <h5 style="color:red">Adventure Locked</h5>
+                    <div data-toggle="tooltip" title="Sorry! This adventure has not been unlocked. Please try again later.">
+                        <h5>New Adeventure Coming Soon</h5>
+                    </div>
+                    <img class = "project_image" src="Photos/awaits.png" alt = "Rock Paper Scissors Lizard Spock">
+                </div>
+                <div class = "col-md-4">
+                    <h5 style="color:red">Adventure Locked</h5>
+                    <div data-toggle="tooltip" title="Sorry! This adventure has not been unlocked. Please try again later.">
+                        <h5>New Adeventure Coming Soon</h5>
+                    </div>
+                    <img class = "project_image" src="Photos/awaits.png" alt = "Wanted">
+                </div>
+                <div class = "col-md-4">
+                    <h5 style="color:red">Adventure Locked</h5>
+                    <div data-toggle="tooltip" title="Sorry! This adventure has not been unlocked. Please try again later.">
+                        <h5>New Adeventure Coming Soon</h5>
+                    </div>
+                    <img class = "project_image" src="Photos/awaits.png" alt = "Day Trip">
+                </div>
+            </div>
+        </div>     
+    </body>
+        <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();
+        });
+        </script>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            input[type=text], select, textarea {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+            }
+
+            input[type=submit] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+            background-color: #45a049;
+            }
+            
+            ul {
+              list-style-type: none;
+              margin: 0px;
+              padding: 15px;
+              float: right;
+              font-size: x-large;
+            
+            }
+            li {
+              display: inline;
+            }
+        </style> 
+        <title>Contact</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="custom_style_sheet.css">
+    </head>
+        <body class = "contactbackground">
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <img class = "logo" src="Photos/Aries.png" alt = "Aries Symbol">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="contact_container">
+                <div class = "row">
+                    <div class = "col-md-6">
+                        <form action="action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                        <label for="email">Email</label>
+                        <input type = "text" name = "email" placeholder="Your email address..">
+              
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        <br />
+                        <br />
+                        <input type="submit" value="Submit">
+              
+                        </form>
+                    </div>
+                    <div class = "col-md-6">
+                        <br />
+                        <br />
+                        <img class = "icon_image" src="Photos/outlook.png" alt = "skype Symbol">
+                        <h5 class = "icontext">Email: An_Aries_Adventure@emailaddress.com</h5>
+                        <br />
+                        <br />
+                        <img class = "icon_image" src="Photos/instagram.jpg" alt = "Instagram Symbol">
+                        <h5 class = "icontext">Instagram: @An_Aries_Adventure</h5>
+                        <br />
+                        <br />
+                        <img class = "icon_image" src="Photos/linkedin.png" alt = "linkedin Symbol">
+                        <h5 class = "icontext">Linkedin: Pending Creation</h5>
+                        <br />
+                        <br />
+                        <img class = "icon_image" src="Photos/owl mail.jpg" alt = "Owl Mail Symbol">
+                        <h5 class = "icontext">Owl Mail: Owl Stop - C53</h5>
+                        <br />
+                        <br />
+                        <img class = "icon_image" src="Photos/cup phone.jpg" alt = "Cup Phone Symbol">
+                        <h5 class = "icontext">Cup Phone: The other end of the cup</h5>
+                    </div>
+                </div>
+            </div>
+        </body>
+</html>
