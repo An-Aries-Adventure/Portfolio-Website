@@ -26,13 +26,20 @@ body, html {
 }
 .projectbackground{
     background-image: url('Photos/road.jpg');
+    height: auto;
+    width: auto;
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
+    max-width: 100%;
 }
 .contactbackground{
   background-image: url('Photos/waterfall.jpg');
+  height: auto;
+  width: auto;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center;
   max-width: 100%;
 }
 .about_me_image{
@@ -43,11 +50,16 @@ body, html {
   
 }
 .logo{
-  width: 100px;
+  width: 300px;
   float: left;
   margin: 10px
 }
 
+.Aries{
+  width: 122px;
+  float: left;
+  margin: 10px;
+}
 
 .maintext{
   color: whitesmoke;
